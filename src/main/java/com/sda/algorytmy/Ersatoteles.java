@@ -6,6 +6,11 @@ public class Ersatoteles {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(sito(30)));
 
+        int[] tab = sito(20);
+        for (int i=0; i<tab.length; i++){
+            System.out.println(tab[i]);
+        }
+
     }
 
     public static int[] sito(int n) {
